@@ -59,6 +59,123 @@
       ],
       "ast": [
         "aggregate/ast/d881d44490fa947e487efd18ed368136042dc41f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d881d44490fa947e487efd18ed368136042dc41f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "io.ktor:ktor-client-core",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-client-cio",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-client-content-negotiation",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-client-logging",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-serialization-kotlinx-json-jvm",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "com.charleskorn.kaml:kaml",
+          "ecosystem": "MAVEN",
+          "version": "0.65.0",
+          "githubOrg": "charleskorn",
+          "githubRepo": "kaml",
+          "githubCommit": "8a7413ee5064815c9727ea7b151de2e51c218c56",
+          "githubTag": "0.65.0",
+          "githubUrl": "https://github.com/charleskorn/kaml",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "org.mapdb:mapdb",
+          "ecosystem": "MAVEN",
+          "version": "3.1.0",
+          "githubOrg": "git@github.com:jankotek",
+          "githubRepo": "mapdb",
+          "githubUrl": "git@github.com:jankotek/mapdb.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.github.classgraph:classgraph",
+          "ecosystem": "MAVEN",
+          "version": "4.8.179",
+          "githubOrg": "classgraph",
+          "githubRepo": "classgraph",
+          "githubCommit": "e6bb8abc912ffd5065fe8cf5c2cd06a854eabc2a",
+          "githubTag": "classgraph-4.8.179",
+          "githubUrl": "https://github.com/classgraph/classgraph",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-serialization-kotlinx-json",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "org.jetbrains.kotlinx:kotlinx-serialization-json",
+          "ecosystem": "MAVEN",
+          "version": "1.7.3",
+          "githubOrg": "Kotlin",
+          "githubRepo": "kotlinx.serialization",
+          "githubCommit": "d4d066d72a9f92f06c640be5a36a22f75d0d7659",
+          "githubTag": "v1.7.3",
+          "githubUrl": "https://github.com/Kotlin/kotlinx.serialization",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "io.ktor:ktor-server-test-host-jvm",
+          "ecosystem": "MAVEN",
+          "version": "$ktorVersion",
+          "githubOrg": "ktorio",
+          "githubRepo": "ktor",
+          "githubUrl": "https://github.com/ktorio/ktor.git",
+          "source": "build_file:build.gradle.kts"
+        },
+        {
+          "packageName": "org.jetbrains.kotlin:kotlin-test-junit",
+          "ecosystem": "MAVEN",
+          "version": "$kotlinVersion",
+          "githubOrg": "JetBrains",
+          "githubRepo": "kotlin",
+          "githubUrl": "https://github.com/JetBrains/kotlin",
+          "source": "build_file:build.gradle.kts"
+        }
       ]
     }
   ],

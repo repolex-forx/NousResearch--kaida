@@ -1,0 +1,18 @@
+[2026-10-04T14:44:21Z] === ENRICH ITERATION 1 START | repo=NousResearch/kaida sha=d881d444 ===
+[2026-10-04T14:44:21Z] [iter=1] PHASE START: enrich repo=NousResearch/kaida sha=d881d444 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d881d444-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d881d44490fa947e487efd18ed368136042dc41f.nq.gz
+[2026-10-04T14:44:30Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-10-04T14:44:31Z] [iter=1] AST store loaded triples=154101 load_secs=1 mem_mb=315 MB
+[2026-10-04T14:44:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=315 MB
+[2026-10-04T14:44:31Z] [iter=1] LSP targets found call_sites=972 imports=191 extends=0 implements=0 secs=0
+[2026-10-04T14:44:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=315 MB
+[2026-10-04T14:44:32Z] [iter=1] Position index built positions=9184 nodes_with_types=10971 secs=1 mem_mb=315 MB
+[2026-10-04T14:44:32Z] [iter=1] Step 3: Starting LSP resolution mem_mb=315 MB already_completed_types=[] already_completed_files=0
+[2026-10-04T14:44:32Z] [iter=1] Resolving target type target_type=call_site count=972
+[2026-10-04T14:44:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=4 resolved=47 errors=160 current=src/main/kotlin/pipelinedag/pipeline.kt
+[2026-10-04T14:45:17Z] [iter=1] Target type resolved target_type=call_site resolved=145 errors=511 secs=45 mem_mb=315 MB
+[2026-10-04T14:45:17Z] [iter=1] Resolving target type target_type=import_statement count=191
+[2026-10-04T14:45:23Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.0 files_done=3 resolved=9 errors=0 current=src/main/kotlin/llms/helpers.kt
+[2026-10-04T14:45:30Z] [iter=1] Target type resolved target_type=import_statement resolved=15 errors=0 secs=13 mem_mb=315 MB
+[2026-10-04T14:45:43Z] [iter=1] Step 5: Writing final enrichment file triples=9394
+[2026-10-04T14:45:43Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d881d44490fa947e487efd18ed368136042dc41f.nq.gz size_kb=151
+[2026-10-04T14:45:43Z] [iter=1] PHASE END: enrich elapsed_s=82 elapsed_min=1.4 total_triples=9394

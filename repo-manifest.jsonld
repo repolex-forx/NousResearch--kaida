@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/kaida/commit/d881d44490fa947e487efd18ed368136042dc41f",
       "git:hexsha": "d881d44490fa947e487efd18ed368136042dc41f",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     }
   ]
