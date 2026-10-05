@@ -1,0 +1,11 @@
+{
+  "org": "NousResearch",
+  "repo": "kaida",
+  "versions": [
+    {
+      "commit": "d881d44490fa947e487efd18ed368136042dc41f",
+      "tag": "main",
+      "parsed_at": "2026-10-05T09:48:27.522914+00:00"
+    }
+  ]
+}
