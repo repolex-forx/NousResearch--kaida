@@ -176,7 +176,9 @@
           "githubUrl": "https://github.com/JetBrains/kotlin",
           "source": "build_file:build.gradle.kts"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/d881d44490fa947e487efd18ed368136042dc41f/chunk-001.nq.gz",
+      "dep": "dep/d881d44490fa947e487efd18ed368136042dc41f.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
